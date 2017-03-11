@@ -11,13 +11,13 @@ This project requires compiling with visual studio 2015 and the following extern
 * [FreeGLUT] 3.0.0-2
 * [FreeImage] 3.17.0
 
-To compile in visual studio, the header files must be on a "tools" folder that must be created in the folder "Proyecto/Proyecto". The Header should be included as follow:
+To compile in visual studio, the header files of the external libraries must be on a "tools" folder that must be created on the folder "Proyecto/Proyecto". The Header should be included as follow:
 
     - Proyecto/Proyecto/tools/GL/ (freeglut headers)
     - Proyecto/Proyecto/tools/SDL/ (SDL and SDL_mixer)
     - Proyecto/Proyecto/tools/FreeImage (FreeImage)
 
-The libraries must be on a folder "lib" that must be created in the folder "Proyecto" as follow:
+The libraries must be on a folder "lib" that must be created on the folder "Proyecto" as follow:
     - Proyecto/lib
 
 And the .dll should be include on the compilation folder, in "Proyecto/Proyecto"
