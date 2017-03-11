@@ -1,7 +1,7 @@
 # CrazyJeep
 This is a project created by Alejandro Sans and Víctor Felipe as a final project for a Computer Graphic course (Universidad Central de Venezuela). 
 
-Crazy Jeep is a videogame where a player has to face a number of computer enemiess (just single palyer right now). The player and the enemies are Jeeps which when they move, they left behind a wall which the others can collide. The objective of the game is to move around avoiding others walls (and your too) and trying to make the others to collide. The player wins if all enemys collides on walls
+Crazy Jeep is a videogame where a player has to face a number of computer enemies (just single palyer right now). The player and the enemies are Jeeps which when they move, they left behind a wall which the others can collide. The objective of the game is to move around avoiding others walls (and your too) and trying to make the others to collide. The player wins if all enemys collides with walls
 
 # Compiling
 
