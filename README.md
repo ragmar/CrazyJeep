@@ -1,7 +1,7 @@
 # CrazyJeep
 This is a project created by Alejandro Sans and Víctor Felipe as a final project for a Computer Graphic course (Universidad Central de Venezuela). 
 
-Crazy Jeep is a videogame where a player has to face a number of computer enemies (just single palyer right now). The player and the enemies are Jeeps which when they move, they left behind a wall which the others can collide. The objective of the game is to move around avoiding others walls (and your too) and trying to make the others to collide. The player wins if all enemys collides with walls
+Crazy Jeep is a videogame where a player must face several computer enemies (just single player right now). The player and the enemies are Jeeps than when they move, they left behind a wall which the others can collide. The objective of the game is to move around avoiding others walls (and your too) and trying to make the others to collide. The player wins if all enemies collides with walls
 
 # Compiling
 
@@ -11,7 +11,7 @@ This project requires compiling with visual studio 2015 and the following extern
 * [FreeGLUT] 3.0.0-2
 * [FreeImage] 3.17.0
 
-To compile in visual studio, the header files must be on a "tools" folder that must be created in the forlder "Proyecto/Proyecto". The Header should be include as follow:
+To compile in visual studio, the header files must be on a "tools" folder that must be created in the folder "Proyecto/Proyecto". The Header should be included as follow:
 
     - Proyecto/Proyecto/tools/GL/ (freeglut headers)
     - Proyecto/Proyecto/tools/SDL/ (SDL and SDL_mixer)
@@ -20,7 +20,7 @@ To compile in visual studio, the header files must be on a "tools" folder that m
 The libraries must be on a folder "lib" that must be created in the folder "Proyecto" as follow:
     - Proyecto/lib
 
-And the dll should be include on the compilation folder, in "Proyecto/Proyecto"
+And the .dll should be include on the compilation folder, in "Proyecto/Proyecto"
 
 # Images
 
