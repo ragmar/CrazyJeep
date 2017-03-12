@@ -53,7 +53,6 @@ artifacts/
 *_i.h
 *.ilk
 *.meta
-*.obj
 *.pch
 *.pdb
 *.pgc
@@ -288,3 +287,6 @@ __pycache__/
 Proyecto/Proyecto/Proyecto/tools/
 *.dll
 *.lib
+Proyecto/Proyecto/tools/
+Proyecto/files/Texturas/Skybox/Thumbs.db
+Proyecto/files/Texturas/Thumbs.db
