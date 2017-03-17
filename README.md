@@ -28,9 +28,9 @@ Here are some images of the videogame
 
 
 
-![alt tag] (./Screenshot/CrazeJeepMenu.jpg)
-![alt tag] (./Screenshot/CrazeJeepGameplay1.jpg)
-![alt tag] (./Screenshot/CrazeJeepGameplay2.jpg)
+![alt tag](./Screenshot/CrazeJeepMenu.jpg)
+![alt tag](./Screenshot/CrazeJeepGameplay1.jpg)
+![alt tag](./Screenshot/CrazeJeepGameplay2.jpg)
 
 And finally, a [video] of the game in the link
 
