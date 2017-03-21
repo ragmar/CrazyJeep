@@ -18,6 +18,7 @@ To compile in visual studio, the header files of the external libraries must be 
     - Proyecto/Proyecto/tools/FreeImage (FreeImage)
 
 The libraries must be on a folder "lib" that must be created on the folder "Proyecto" as follow:
+
     - Proyecto/lib
 
 And the .dll should be include on the compilation folder, in "Proyecto/Proyecto"
