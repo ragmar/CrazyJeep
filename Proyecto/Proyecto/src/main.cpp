@@ -55,8 +55,8 @@ GLvoid inicializarMusica() {
 	if(Mix_OpenAudio(22050, AUDIO_S16SYS, 2, 4096) < 0)
 		exit(-1);
 	atexit(Mix_CloseAudio);
-	sdlMenu = Mix_LoadMUS("../files/Sonidos/Menu.wav");
-	sdlJuego = Mix_LoadMUS("../files/Sonidos/Juego.wav");
+	sdlMenu = Mix_LoadMUS("../files/Sonidos/NINES__091999__-_Bus.mp3");
+	sdlJuego = Mix_LoadMUS("../files/Sonidos/John_Bura_-_Mastodon_Bus.mp3");
 	sdlAceleracion = Mix_LoadWAV("../files/Sonidos/Aceleracion.wav");
 	sdlChoque = Mix_LoadWAV("../files/Sonidos/Choque.wav");
 	Mix_AllocateChannels(2);
@@ -289,6 +289,7 @@ void renderScene(void) {//renderizar
 
 void IddleJuego() {
 		if(!comenzoMusicaJuego) {
+			Mix_VolumeMusic(80);
 			Mix_PlayMusic(sdlJuego, -1);
 			channelBoatOutBoard = Mix_PlayChannel(0, sdlAceleracion, -1);
 			comenzoMusicaJuego = true;
@@ -354,6 +355,7 @@ void IddleFin(){
 
 void IddleMenu(){
 	if(!comenzoMusicaMenu) {
+		Mix_VolumeMusic(MIX_MAX_VOLUME);
 		Mix_PlayMusic(sdlMenu, -1);
 		comenzoMusicaMenu = true;
 	}
