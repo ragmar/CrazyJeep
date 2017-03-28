@@ -24,7 +24,7 @@ The libraries must be on a folder "lib" that must be created on the folder "Proy
 And the .dll should be include on the compilation folder, in "Proyecto/Proyecto"
 
 # License
-Crazy Jeep uses the tracks "Bus" by NINES (091999) and "Mastodon Bus" by John Bura. The song are available under a Creative Commons BY-ND-NC license (see http://creativecommons.org/licenses/by-nc-sa/3.0/) in http://www.jamendo.com/
+Crazy Jeep uses the tracks "Bus" by NINES (091999) and "Mastodon Bus" by John Bura. These songs are available under a Creative Commons BY-NC-ND license (see https://creativecommons.org/licenses/by-nc-nd/3.0/) in http://www.jamendo.com/
 
 Crazy Jeep is free software.
 
