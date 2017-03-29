@@ -50,8 +50,8 @@
 		void jeep::FilesToLoad(){
 			string archivo="";
 			string archivo_textura="";
-			archivo="../files/Modelos/jeep.obj";
-			archivo_textura="../files/Texturas/jeep_army.jpg";
+			archivo="./files/Modelos/jeep.obj";
+			archivo_textura="./files/Texturas/jeep_army.jpg";
 			CargarModelo(archivo);
 			texture.Init(archivo_textura);
 			texture.CargarTextura();

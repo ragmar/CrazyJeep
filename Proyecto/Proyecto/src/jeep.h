@@ -3,7 +3,7 @@
 #include "box.h"
 #include "objeto.h"
 
-#define VELOCIDAD 3
+#define VELOCIDAD 1.5
 
 class jeep : public objeto{
 
