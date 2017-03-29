@@ -55,10 +55,10 @@ GLvoid inicializarMusica() {
 	if(Mix_OpenAudio(22050, AUDIO_S16SYS, 2, 4096) < 0)
 		exit(-1);
 	atexit(Mix_CloseAudio);
-	sdlMenu = Mix_LoadMUS("../files/Sonidos/NINES__091999__-_Bus.mp3");
-	sdlJuego = Mix_LoadMUS("../files/Sonidos/John_Bura_-_Mastodon_Bus.mp3");
-	sdlAceleracion = Mix_LoadWAV("../files/Sonidos/Aceleracion.wav");
-	sdlChoque = Mix_LoadWAV("../files/Sonidos/Choque.wav");
+	sdlMenu = Mix_LoadMUS("./files/Sonidos/Venus.wav");
+	sdlJuego = Mix_LoadMUS("./files/Sonidos/BossMain.wav");
+	sdlAceleracion = Mix_LoadWAV("./files/Sonidos/Aceleracion.wav");
+	sdlChoque = Mix_LoadWAV("./files/Sonidos/Choque.wav");
 	Mix_AllocateChannels(2);
 }
 
@@ -289,7 +289,7 @@ void renderScene(void) {//renderizar
 
 void IddleJuego() {
 		if(!comenzoMusicaJuego) {
-			Mix_VolumeMusic(80);
+			Mix_VolumeMusic(100);
 			Mix_PlayMusic(sdlJuego, -1);
 			channelBoatOutBoard = Mix_PlayChannel(0, sdlAceleracion, -1);
 			comenzoMusicaJuego = true;
@@ -470,9 +470,9 @@ void init() {
 	//CARGAR
 	for(int a = 0; a < 2; ++a) {
 		if(a==0){
-			texturitas[a].Init("../files/Texturas/Enemigo.jpg");
+			texturitas[a].Init("./files/Texturas/Enemigo.jpg");
 		}else{
-			texturitas[a].Init("../files/Texturas/Enemigo_Crash.jpg");
+			texturitas[a].Init("./files/Texturas/Enemigo_Crash.jpg");
 		}
 		texturitas[a].CargarTextura();
 	}

@@ -274,34 +274,34 @@
 			string archivo="";
 			string archivo_textura="";
 			if(Modelo==0){
-				archivo="../files/Modelos/abajo.obj";
-				archivo_textura="../files/Texturas/Skybox/Down.tga";
+				archivo="./files/Modelos/abajo.obj";
+				archivo_textura="./files/Texturas/Skybox/Down.tga";
 			}else if(Modelo==1){
-				archivo="../files/Modelos/adelante.obj";
-				archivo_textura="../files/Texturas/Skybox/Front.jpg";
+				archivo="./files/Modelos/adelante.obj";
+				archivo_textura="./files/Texturas/Skybox/Front.jpg";
 			}else if(Modelo==2){
-				archivo="../files/Modelos/atras.obj";
-				archivo_textura="../files/Texturas/Skybox/Back.jpg";
+				archivo="./files/Modelos/atras.obj";
+				archivo_textura="./files/Texturas/Skybox/Back.jpg";
 			}else if(Modelo==3){
-				archivo="../files/Modelos/derecha.obj";
-				archivo_textura="../files/Texturas/Skybox/Right.jpg";
+				archivo="./files/Modelos/derecha.obj";
+				archivo_textura="./files/Texturas/Skybox/Right.jpg";
 			}else if(Modelo==4){
-				archivo="../files/Modelos/izquierda.obj";
-				archivo_textura="../files/Texturas/Skybox/Left.jpg";
+				archivo="./files/Modelos/izquierda.obj";
+				archivo_textura="./files/Texturas/Skybox/Left.jpg";
 			}else if(Modelo==5){
-				archivo="../files/Modelos/arriba.obj";
-				archivo_textura="../files/Texturas/Skybox/Up.jpg";
+				archivo="./files/Modelos/arriba.obj";
+				archivo_textura="./files/Texturas/Skybox/Up.jpg";
 			}else if(Modelo==6){
-				archivo="../files/Modelos/borde.obj";
-				archivo_textura="../files/Texturas/Skybox/borde.jpg";
+				archivo="./files/Modelos/borde.obj";
+				archivo_textura="./files/Texturas/Skybox/borde.jpg";
 			}else if(Modelo>=7){
-				archivo="../files/Modelos/menu.obj";
+				archivo="./files/Modelos/menu.obj";
 				if(Modelo == 7){
-					archivo_textura="../files/Texturas/Menu1.jpg";
+					archivo_textura="./files/Texturas/Menu1.jpg";
 				}if(Modelo == 8)
-					archivo_textura="../files/Texturas/Menu2.jpg";
+					archivo_textura="./files/Texturas/Menu2.jpg";
 				if(Modelo == 9)
-					archivo_textura="../files/Texturas/Menu3.jpg";
+					archivo_textura="./files/Texturas/Menu3.jpg";
 			}
 
 			CargarModelo(archivo);

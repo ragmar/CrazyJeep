@@ -213,7 +213,7 @@
 
 
 		void Muro::FilesToLoad(){
-				string archivo_textura="../files/Texturas/muro.jpg";
+				string archivo_textura="./files/Texturas/muro.jpg";
 				texture.Init(archivo_textura);
 				texture.CargarTextura();
 
